@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+#div1>#img{
+
+    width: 100%;
+}
+#div1>.mn{
+    position:absolute;
+    top:200px;
+    left:100px;
+}
+.mn>h2{
+    color:yellow;
+}
+.mn>h1{
+    color:black;
+}
+.home{
+    margin-left:100px;
+}
+.home>span{
+    margin-left:100px;
+}
+.ad1{
+    display: flex;
+}
+.ad1>p{
+    width: 500px;
+    margin-left: 100px;
+    padding-top: 20px; 
+}
+#msr{
+    margin-left: 100px;
+    padding-top: 50px;
+}

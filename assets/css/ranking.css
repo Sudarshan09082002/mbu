@@ -1,0 +1,161 @@
+
+    
+ #img{
+    width: 100px;
+}
+#su{
+    display: flex;
+}
+#su>#t1>img{
+    width: 300px;
+    height: 400px;
+    margin-left: 100px;
+}
+#su>#t2>img{
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    padding-top: 100px;
+}
+#su>#t2>h1{
+    margin-left: 400px;
+}
+#su>#t2>p{
+    margin-left: 400px;
+}
+#msr{
+    display: flex;
+}
+#msr>#t3>img{
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+}
+#msr>#t3>p{
+    width: 600px;
+}
+#msr>#t4>img{
+    width: 400px;
+    height: 500px;
+    margin-left: 150px;
+}
+.hari{
+    display: flex;
+} 
+
+
+
+
+/* media quires laptop */
+@media screen and (max-width: 1025px) and (min-width:769px) {
+    #su > #t1 > img {
+        width: 200px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    #su > #t2 > img {
+        width: 50px;
+        height: 50px;
+        margin-left: 200px;
+        padding-top: 50px;
+    }
+
+    #su > #t2 > h1,
+    #su > #t2 > p {
+        margin-left: 200px;
+    }
+
+    #msr > #t3 > img {
+        width: 50px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    #msr > #t3 > p {
+        width: 400px;
+    }
+
+    #msr > #t4 > img {
+        width: 300px;
+        height: 400px;
+        margin-left: 100px;
+    }
+}
+@media screen and(max-width:769px) and  (min-width:426px){
+    #su > #t1 > img {
+        width: 200px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    #su > #t2 > img {
+        width: 50px;
+        height: 50px;
+        margin-left: 200px;
+        padding-top: 50px;
+    }
+
+    #su > #t2 > h1,
+    #su > #t2 > p {
+        margin-left: 200px;
+    }
+
+    #msr > #t3 > img {
+        width: 50px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    #msr > #t3 > p {
+        width: 400px;
+    }
+
+    #msr > #t4 > img {
+        width: 300px;
+        height: 400px;
+        margin-left: 100px;
+    }
+
+}
+
+
+ 
+ @media screen and (max-width: 426px){ 
+    #su > #t1 > img {
+        width: 200px;
+        height: 300px;
+        margin-left: 50px;
+    }
+
+    #su > #t2 > img {
+        width: 50px;
+        height: 50px;
+        margin-left: 200px;
+        padding-top: 50px;
+    }
+
+    #su > #t2 > h1,
+    #su > #t2 > p {
+        margin-left: 200px;
+    }
+
+    #msr > #t3 > img {
+        width: 50px;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+    #msr > #t3 > p {
+        width: 400px;
+    }
+
+    #msr > #t4 > img {
+        width: 300px;
+        height: 400px;
+        margin-left: 100px;
+    }
+
+
+}
+
